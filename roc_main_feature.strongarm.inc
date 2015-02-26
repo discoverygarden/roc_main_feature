@@ -114,6 +114,69 @@ function roc_main_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_max_limit';
+  $strongarm->value = '20';
+  $export['islandora_solr_facet_max_limit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_min_limit';
+  $strongarm->value = '2';
+  $export['islandora_solr_facet_min_limit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_facet_limit';
+  $strongarm->value = '100000';
+  $export['islandora_solr_facet_pages_facet_limit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_fields_data';
+  $strongarm->value = array(
+    0 => array(
+      'solr_field' => 'mods_titleInfo_title_ms',
+      'label' => 'Title',
+      'path' => 'title',
+    ),
+    1 => array(
+      'solr_field' => 'fgs_ownerId_s',
+      'label' => 'People',
+      'path' => 'people',
+    ),
+    2 => array(
+      'solr_field' => 'mods_originInfo_place_placeTerm_code_s ',
+      'label' => 'Places',
+      'path' => 'place',
+    ),
+    3 => array(
+      'solr_field' => 'mods_originInfo_publisher_ms',
+      'label' => 'Organization',
+      'path' => 'organization',
+    ),
+  );
+  $export['islandora_solr_facet_pages_fields_data'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_limit';
+  $strongarm->value = '25';
+  $export['islandora_solr_facet_pages_limit'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'islandora_solr_facet_pages_search_form';
+  $strongarm->value = 1;
+  $export['islandora_solr_facet_pages_search_form'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'node_admin_theme';
   $strongarm->value = 1;
   $export['node_admin_theme'] = $strongarm;
