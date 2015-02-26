@@ -201,6 +201,27 @@ function roc_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['search-form'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'form',
+    'module' => 'search',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'roc_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'roc_theme',
+        'weight' => -1,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['system-help'] = array(
     'cache' => -1,
     'css_class' => '',
@@ -237,6 +258,48 @@ function roc_main_feature_default_fe_block_settings() {
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -31,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['system-navigation'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'navigation',
+    'module' => 'system',
+    'node_types' => array(),
+    'pages' => '<front>',
+    'roles' => array(),
+    'themes' => array(
+      'roc_theme' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'roc_theme',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['system-powered-by'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'powered-by',
+    'module' => 'system',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'roc_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'roc_theme',
+        'weight' => -20,
       ),
     ),
     'title' => '',

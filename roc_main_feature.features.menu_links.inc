@@ -10,26 +10,6 @@
 function roc_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: menu-explor-by_one-more:<front>
-  $menu_links['menu-explor-by_one-more:<front>'] = array(
-    'menu_name' => 'menu-explor-by',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'One More',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'identifier' => 'menu-explor-by_one-more:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-  );
   // Exported menu link: menu-explor-by_organization-name:browse/organization
   $menu_links['menu-explor-by_organization-name:browse/organization'] = array(
     'menu_name' => 'menu-explor-by',
@@ -348,7 +328,6 @@ function roc_main_feature_menu_default_menu_links() {
   t('Login');
   t('Logout');
   t('Make contact');
-  t('One More');
   t('Organization Name');
   t('Organizations');
   t('People');
