@@ -31,6 +31,7 @@ features[fe_block_settings][] = system-help
 features[fe_block_settings][] = system-main
 features[fe_block_settings][] = system-navigation
 features[fe_block_settings][] = system-powered-by
+features[fe_block_settings][] = user-login
 features[fe_block_settings][] = views-136a44c4a687023e66e4898268c95668
 features[fe_block_settings][] = views-clone_of_image_blocks-block_1
 features[fe_block_settings][] = views-clone_of_image_blocks-block_2

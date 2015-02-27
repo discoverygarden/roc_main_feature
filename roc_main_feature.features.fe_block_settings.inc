@@ -306,6 +306,27 @@ function roc_main_feature_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['user-login'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'login',
+    'module' => 'user',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'roc_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'roc_theme',
+        'weight' => -19,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-136a44c4a687023e66e4898268c95668'] = array(
     'cache' => -1,
     'css_class' => 'front-page-view-boxes front-page-featured-treasures',
