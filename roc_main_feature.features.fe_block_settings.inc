@@ -275,8 +275,8 @@ function roc_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'roc_theme' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'roc_theme',
         'weight' => 0,
       ),
@@ -300,6 +300,27 @@ function roc_main_feature_default_fe_block_settings() {
         'status' => 0,
         'theme' => 'roc_theme',
         'weight' => -20,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
+  $export['user-login'] = array(
+    'cache' => -1,
+    'css_class' => '',
+    'custom' => 0,
+    'delta' => 'login',
+    'module' => 'user',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'roc_theme' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'roc_theme',
+        'weight' => -19,
       ),
     ),
     'title' => '',
