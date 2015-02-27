@@ -275,8 +275,8 @@ function roc_main_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'roc_theme' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'roc_theme',
         'weight' => 0,
       ),
