@@ -130,29 +130,6 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_browse:islandora/object/islandora:root
-  $menu_links['menu-header-menu_browse:islandora/object/islandora:root'] = array(
-    'menu_name' => 'menu-header-menu',
-    'link_path' => 'islandora/object/islandora:root',
-    'router_path' => 'islandora/object/%',
-    'link_title' => 'Browse',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-      'query' => array(
-        'display' => 'list',
-      ),
-      'identifier' => 'menu-header-menu_browse:islandora/object/islandora:root',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -45,
-    'customized' => 1,
-  );
   // Exported menu link: menu-header-menu_organizations:browse/organization
   $menu_links['menu-header-menu_organizations:browse/organization'] = array(
     'menu_name' => 'menu-header-menu',
@@ -235,7 +212,6 @@ function roc_main_feature_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Browse');
   t('Login');
   t('Logout');
   t('Organization Name');
