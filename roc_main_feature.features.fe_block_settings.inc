@@ -13,7 +13,7 @@ function roc_main_feature_default_fe_block_settings() {
   $export['version'] = '2.0';
 
   $export['islandora_compound_object-compound_navigation'] = array(
-    'cache' => 1,
+    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'compound_navigation',
@@ -22,11 +22,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => 'islandora/object/*',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -9,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -43,11 +55,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => 'islandora/search/*',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -19,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => 'Facets',
@@ -64,11 +88,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -32,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '<none>',
@@ -85,11 +121,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'sub_header',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -22,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '<none>',
@@ -97,7 +145,7 @@ function roc_main_feature_default_fe_block_settings() {
   );
 
   $export['islandora_solr_facet_pages-islandora-solr-facet-pages'] = array(
-    'cache' => 1,
+    'cache' => -1,
     'css_class' => '',
     'custom' => 0,
     'delta' => 'islandora-solr-facet-pages',
@@ -106,10 +154,22 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => 'facet-pages',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'roc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
         'weight' => 0,
       ),
     ),
@@ -127,10 +187,22 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'sub_header',
         'status' => 1,
         'theme' => 'roc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
         'weight' => 0,
       ),
     ),
@@ -148,11 +220,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -28,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -169,11 +253,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'footer',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -30,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '<none>',
@@ -190,10 +286,22 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'sub_header',
         'status' => 1,
         'theme' => 'roc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
         'weight' => 0,
       ),
     ),
@@ -211,11 +319,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => -1,
+      ),
       'roc_theme' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'roc_theme',
         'weight' => -1,
+      ),
+      'seven' => array(
+        'region' => 'dashboard_sidebar',
+        'status' => 1,
+        'theme' => 'seven',
+        'weight' => -10,
       ),
     ),
     'title' => '',
@@ -232,10 +352,22 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'help',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'help',
         'status' => 1,
         'theme' => 'roc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => 'help',
+        'status' => 1,
+        'theme' => 'seven',
         'weight' => 0,
       ),
     ),
@@ -253,11 +385,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -31,
+      ),
+      'seven' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -274,10 +418,22 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'roc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
         'weight' => 0,
       ),
     ),
@@ -295,11 +451,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'footer',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 10,
+      ),
       'roc_theme' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'roc_theme',
         'weight' => -20,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 10,
       ),
     ),
     'title' => '',
@@ -316,11 +484,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'roc_theme',
         'weight' => -19,
+      ),
+      'seven' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'seven',
+        'weight' => 10,
       ),
     ),
     'title' => '',
@@ -337,11 +517,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -29,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '',
@@ -358,11 +550,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'footer',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -31,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '<none>',
@@ -379,11 +583,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -30,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '<none>',
@@ -400,10 +616,22 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'roc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
         'weight' => 0,
       ),
     ),
@@ -421,10 +649,22 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '<front>',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'content',
         'status' => 1,
         'theme' => 'roc_theme',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
         'weight' => 0,
       ),
     ),
@@ -442,11 +682,23 @@ function roc_main_feature_default_fe_block_settings() {
     'pages' => '',
     'roles' => array(),
     'themes' => array(
+      'bartik' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'bartik',
+        'weight' => 0,
+      ),
       'roc_theme' => array(
         'region' => 'footer',
         'status' => 1,
         'theme' => 'roc_theme',
         'weight' => -29,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
       ),
     ),
     'title' => '',

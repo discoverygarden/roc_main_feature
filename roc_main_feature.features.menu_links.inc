@@ -10,7 +10,7 @@
 function roc_main_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: menu-explor-by_organization-name:browse/organization
+  // Exported menu link: menu-explor-by_organization-name:browse/organization.
   $menu_links['menu-explor-by_organization-name:browse/organization'] = array(
     'menu_name' => 'menu-explor-by',
     'link_path' => 'browse/organization',
@@ -30,7 +30,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-explor-by_people:browse/people
+  // Exported menu link: menu-explor-by_people:browse/people.
   $menu_links['menu-explor-by_people:browse/people'] = array(
     'menu_name' => 'menu-explor-by',
     'link_path' => 'browse/people',
@@ -50,7 +50,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-explor-by_places:browse/place
+  // Exported menu link: menu-explor-by_places:browse/place.
   $menu_links['menu-explor-by_places:browse/place'] = array(
     'menu_name' => 'menu-explor-by',
     'link_path' => 'browse/place',
@@ -70,7 +70,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-explor-by_title:browse/title
+  // Exported menu link: menu-explor-by_title:browse/title.
   $menu_links['menu-explor-by_title:browse/title'] = array(
     'menu_name' => 'menu-explor-by',
     'link_path' => 'browse/title',
@@ -90,7 +90,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_login:user/login
+  // Exported menu link: menu-footer-menu_login:user/login.
   $menu_links['menu-footer-menu_login:user/login'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/login',
@@ -110,7 +110,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-footer-menu_logout:user/logout
+  // Exported menu link: menu-footer-menu_logout:user/logout.
   $menu_links['menu-footer-menu_logout:user/logout'] = array(
     'menu_name' => 'menu-footer-menu',
     'link_path' => 'user/logout',
@@ -130,7 +130,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => -45,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_organizations:browse/organization
+  // Exported menu link: menu-header-menu_organizations:browse/organization.
   $menu_links['menu-header-menu_organizations:browse/organization'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'browse/organization',
@@ -150,7 +150,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_people:browse/people
+  // Exported menu link: menu-header-menu_people:browse/people.
   $menu_links['menu-header-menu_people:browse/people'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'browse/people',
@@ -170,7 +170,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_places:browse/place
+  // Exported menu link: menu-header-menu_places:browse/place.
   $menu_links['menu-header-menu_places:browse/place'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'browse/place',
@@ -190,7 +190,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
-  // Exported menu link: menu-header-menu_titles:browse/title
+  // Exported menu link: menu-header-menu_titles:browse/title.
   $menu_links['menu-header-menu_titles:browse/title'] = array(
     'menu_name' => 'menu-header-menu',
     'link_path' => 'browse/title',
@@ -210,6 +210,7 @@ function roc_main_feature_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Login');
@@ -220,7 +221,6 @@ function roc_main_feature_menu_default_menu_links() {
   t('Places');
   t('Title');
   t('Titles');
-
 
   return $menu_links;
 }

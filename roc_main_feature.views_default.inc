@@ -574,7 +574,7 @@ function roc_main_feature_views_default_views() {
   $handler->display->display_options['fields']['id']['alter']['make_link'] = TRUE;
   $handler->display->display_options['fields']['id']['alter']['path'] = 'islandora/object/[id]';
   $handler->display->display_options['fields']['id']['alter']['target'] = '_blank';
-  /* Field: Islandora Batch: Item state */
+  /* Field: Islandora Batch: Item State */
   $handler->display->display_options['fields']['state']['id'] = 'state';
   $handler->display->display_options['fields']['state']['table'] = 'islandora_batch_state';
   $handler->display->display_options['fields']['state']['field'] = 'state';
@@ -662,7 +662,7 @@ function roc_main_feature_views_default_views() {
     t('Associated Set'),
     t('Set creator'),
     t('ID'),
-    t('Item state'),
+    t('Item State'),
     t('[state-text]'),
     t('Parent'),
     t('Set ID'),
